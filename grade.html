@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FRED INTERNATIONAL SCHOOL GRADING SYSYTM</title>
+    <link rel="stylesheet" a href="grade.css">
+    <script>
+        // grading solution solution is here
+        function maths() {
+             let gradePonits = document.getElementById("Ponits").value;
+             if(gradePoints > 79){
+                alert("Grades A");// any number abive 78 will return A
+            } else if(gradePonits > 60) {
+                alert("Grade B");// any number above 60 will return B
+            } else if(gradePonits > 49) {
+                alert("Grade C");// any number above 49 will return C
+            } else if(gradePonits > 40) {
+                alert("Grade D");// any number above 40 will return D
+            }else (
+                alert("Grade E");// any number below 40 will return E
+            )
+        }
+    </script>
+</head>
+<body>
+    <div id="Header">
+        <div class="b">
+            <h1>KARIBU <span>FRED INTERNATIONAL SCHOOL GRADING SYSTEM</span></h1>
+            <P> Juinor grading system</p> 
+                <form class="C">
+                    <label for="nameone">Name One</label><br>
+                    <input type="text" id="nameone" name="nameone" value="Fred"><br>
+                    <label for="nametwo">Name Two</label><br>
+                    <input type="text" id="nametwo" name="nametwo" value="Mwangi"><br>
+                    <label for="form">Form:</label><br>
+                    <input type="number" id="form" value="2"><br>
+                    <label for="Grade meanscore">GradePoints</label><br>
+                    <input type="number" id="Points" value="59"><br>
+                </form>
+                <button id="d" onclick="maths()">Check Grade</button>
+            </div>
+        </div>
+    </body>
+</html>

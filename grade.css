@@ -1,0 +1,22 @@
+#Header{
+    width: 100%;
+    height: 100vh;
+    background-image: https://images.app.goo.gl/pvow7oFUCYDMqgURA
+    background-size: cover;
+    backgroung-postion: centre.
+
+}
+#nameone{
+    border-radius: 100px;
+    background-color: none;
+    color: black;
+    border: darkred;
+    padding: 15px;
+    margin-top: 10px;
+}
+#nametwo{
+    border-radius: 20%;
+    text-align: left;
+    padding: auto;
+    margin: 15px;
+}
